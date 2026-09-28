@@ -1,0 +1,5 @@
+slug: laogu-value
+display_name: 估值锚
+description: 估值锚：输入一家 A 股公司，抓取当前 PE(TTM)/PB、搜集历史估值分位区间、对比同行业可比公司，输出中文估值定位报告（只描述分位位置，不做买卖推荐）。
+version: 1.0.0
+author: 老谷拆财报
