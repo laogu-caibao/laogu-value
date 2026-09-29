@@ -4,6 +4,27 @@
 
 估值锚 skill：输入一家 A 股公司，输出一张中文"贵/便宜定位卡"。
 
+## 一键安装
+
+仓库地址（点击复制）：
+
+`https://github.com/laogu-caibao/laogu-value`
+
+**方式一：克隆**
+
+```bash
+git clone https://github.com/laogu-caibao/laogu-value.git
+```
+
+**方式二：下载 ZIP**
+
+https://github.com/laogu-caibao/laogu-value/archive/refs/heads/main.zip
+
+**导入使用**
+
+- Claude Code / Muse：把仓库中的 `SKILL.md` 放到 `~/.claude/skills/laogu-value/` 下即可调用。
+- 豆包智能体 / Workbuddy 等：按各平台的 skill 上传流程导入 `SKILL.md`。
+- 一次装好全部 16 个：用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)，`uvx laogu-mcp` 一键安装。
 ## 文件结构
 
 - `SKILL.md` — 主流程（平台中立，需要用户输入公司名称或代码）
