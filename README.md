@@ -50,6 +50,25 @@ https://github.com/laogu-caibao/laogu-value/archive/refs/heads/main.zip
 - 可与 `laogu-fundamentals` 联动：先看基本面，再看估值位置
 
 ---
+## English
+
+**laogu-value — Valuation anchor.** Shows current PE(TTM)/PB, its historical percentile, and peer comparison. It describes where the valuation sits — never buy/sell advice. Install: `npx skills add laogu-caibao/laogu-value`.
+
+## FAQ
+
+**Q：laogu-value 有什么用？**
+适合的场景：想知道一家公司现在的估值处在历史什么分位、跟同行比贵不贵（只描述位置，不给买卖建议）。
+
+**Q：数据可靠吗？会荐股吗？**
+数字必须来自可核验的公开来源（上市公司公告、交易所公开数据、公开网页），取不到就标「未核验」，绝不编造；只做结构化整理与解读，不构成投资建议。
+
+**Q：怎么安装？支持哪些 AI 平台？**
+```bash
+npx skills add laogu-caibao/laogu-value
+```
+平台中立 Markdown，Claude Code、Codex、豆包智能体、Workbuddy、扣子 Coze、Trae 等环境均可用；数据能力可用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)（`uvx laogu-mcp`）一次装齐。更多 skill 见[老谷拆财报组织主页](https://github.com/laogu-caibao)。
+---
+
 ## 出品
 
 **老谷拆财报** —— 以数据为刃，剖市场真相
